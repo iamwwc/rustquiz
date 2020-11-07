@@ -7,3 +7,13 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# 你可以指定所用外部依赖开启的功能
+mio = { version = "0.7",features = ["os-poll", "tcp"]}
+[features]
+# features 栏是自己定义的可以开启的功能
+# By default Mio only provides a shell implementation.
+default = ["os-poll","tcp"]
+os-poll = []
+tcp = []
+# Enables the `Poll` and `Registry` types.
+another = []
