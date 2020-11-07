@@ -21,10 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5208ed71-f7e2-44ba-b4a6-2bcb13adb8ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -84,11 +84,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.run" />
@@ -99,6 +94,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604722668224</updated>
       <workItem from="1604722669323" duration="3982000" />
+      <workItem from="1604740828221" duration="788000" />
     </task>
     <servers />
   </component>
@@ -119,21 +116,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1348" height="286" key="GridCell.Tab.0.bottom" timestamp="1604726666687">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1481" height="359" key="GridCell.Tab.0.bottom" timestamp="1604741009332">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1481" height="359" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
     <state width="1348" height="286" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
-    <state width="1348" height="286" key="GridCell.Tab.0.center" timestamp="1604726666686">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1481" height="359" key="GridCell.Tab.0.center" timestamp="1604741009332">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1481" height="359" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
     <state width="1348" height="286" key="GridCell.Tab.0.center/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1348" height="286" key="GridCell.Tab.0.left" timestamp="1604726666686">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1481" height="359" key="GridCell.Tab.0.left" timestamp="1604741009331">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1481" height="359" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009331" />
     <state width="1348" height="286" key="GridCell.Tab.0.left/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1348" height="286" key="GridCell.Tab.0.right" timestamp="1604726666687">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1481" height="359" key="GridCell.Tab.0.right" timestamp="1604741009332">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1481" height="359" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
     <state width="1348" height="286" key="GridCell.Tab.0.right/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
     <state width="1212" height="206" key="GridCell.Tab.1.bottom" timestamp="1604726031941">
       <screen x="0" y="23" width="2560" height="1417" />
