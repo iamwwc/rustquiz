@@ -1,13 +1,27 @@
 {
-	"version": "2.0.0",
-	"tasks": [
+    "version": "2.0.0",
+    "tasks": [
         {
-            "type": "cargo",
-            "command": "run --package rustquiz --bin 2 --all-features",
+            "type": "shell",
+            "command": "${workspaceFolder}/target/debug/${fileBasenameNoExtension}",
             "problemMatcher": [
                 "$rustc"
             ],
-            "label": "rust: cargo run"
+            "label": "Run rust",
+            "dependsOn":["Rustc build"]
+        },
+        {
+            "type": "shell",
+            "command": "mkdir -p ${workspaceFolder}/target/debug && rustc -o ${workspaceFolder}/target/debug/${fileBasenameNoExtension} ${file}",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "label": "Rustc build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":[]
         }
     ]
 }

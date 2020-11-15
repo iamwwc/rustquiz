@@ -21,9 +21,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5208ed71-f7e2-44ba-b4a6-2bcb13adb8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bin/print.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/eventloop.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/exam3.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/marco.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/print.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/print.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,24 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Cargo.run">
+  <component name="RunManager" selected="Cargo.Run marco">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run marco" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package rustquiz --bin marco" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run rustquiz" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package rustquiz --bin rustquiz" />
@@ -87,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run marco" />
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.Run rustquiz" />
@@ -106,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604722668224</updated>
       <workItem from="1604722669323" duration="3982000" />
-      <workItem from="1604740828221" duration="788000" />
+      <workItem from="1604740828221" duration="1517000" />
     </task>
     <servers />
   </component>
@@ -117,25 +139,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1481" height="359" key="GridCell.Tab.0.bottom" timestamp="1604741009332">
+    <state width="1481" height="359" key="GridCell.Tab.0.bottom" timestamp="1605432171442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
+    <state width="1481" height="359" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
     <state width="1348" height="286" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
-    <state width="1481" height="359" key="GridCell.Tab.0.center" timestamp="1604741009332">
+    <state width="1481" height="359" key="GridCell.Tab.0.center" timestamp="1605432171442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
+    <state width="1481" height="359" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
     <state width="1348" height="286" key="GridCell.Tab.0.center/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1481" height="359" key="GridCell.Tab.0.left" timestamp="1604741009331">
+    <state width="1481" height="359" key="GridCell.Tab.0.left" timestamp="1605432171442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009331" />
+    <state width="1481" height="359" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
     <state width="1348" height="286" key="GridCell.Tab.0.left/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1481" height="359" key="GridCell.Tab.0.right" timestamp="1604741009332">
+    <state width="1481" height="359" key="GridCell.Tab.0.right" timestamp="1605432171442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604741009332" />
+    <state width="1481" height="359" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
     <state width="1348" height="286" key="GridCell.Tab.0.right/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
     <state width="1212" height="206" key="GridCell.Tab.1.bottom" timestamp="1604726031941">
       <screen x="0" y="23" width="2560" height="1417" />

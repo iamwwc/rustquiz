@@ -22,6 +22,11 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "Rustc",
+            "type": "shell",
+            
         }
     ]
 }

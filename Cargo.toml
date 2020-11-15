@@ -10,6 +10,7 @@ edition = "2018"
 # 你可以指定所用外部依赖开启的功能
 mio = { version = "0.7",features = ["os-poll", "tcp"]}
 rand = "0.5.5"
+libc = "0.2"
 [features]
 # features 栏是自己定义的可以开启的功能
 # By default Mio only provides a shell implementation.
