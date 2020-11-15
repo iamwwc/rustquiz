@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "cargo",
+            "command": "run --package rustquiz --bin 2 --all-features",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "label": "rust: cargo run"
+        }
+    ]
+}
