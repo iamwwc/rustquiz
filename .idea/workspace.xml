@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="CargoProjectFeatures">
@@ -21,13 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5208ed71-f7e2-44ba-b4a6-2bcb13adb8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bin/eventloop.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/exam3.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/marco.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/print.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/print.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ao7ous09" />
@@ -54,9 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -64,51 +59,60 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Cargo.Run marco">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run marco" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo.Run file">
+    <configuration name="Run file" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package rustquiz --bin file" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package rustquiz --bin marco" />
+      <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="Run rustquiz" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package rustquiz --bin rustquiz" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run marco" />
+        <item itemvalue="Cargo.Run file" />
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.Run rustquiz" />
@@ -127,8 +131,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604722668224</updated>
-      <workItem from="1604722669323" duration="3982000" />
-      <workItem from="1604740828221" duration="1517000" />
+      <workItem from="1604722669323" duration="5158000" />
+      <workItem from="1605152892148" duration="439000" />
+      <workItem from="1613438464960" duration="1721000" />
     </task>
     <servers />
   </component>
@@ -138,66 +143,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1481" height="359" key="GridCell.Tab.0.bottom" timestamp="1605432171442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
-    <state width="1348" height="286" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
-    <state width="1481" height="359" key="GridCell.Tab.0.center" timestamp="1605432171442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
-    <state width="1348" height="286" key="GridCell.Tab.0.center/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1481" height="359" key="GridCell.Tab.0.left" timestamp="1605432171442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
-    <state width="1348" height="286" key="GridCell.Tab.0.left/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666686" />
-    <state width="1481" height="359" key="GridCell.Tab.0.right" timestamp="1605432171442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1481" height="359" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605432171442" />
-    <state width="1348" height="286" key="GridCell.Tab.0.right/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726666687" />
-    <state width="1212" height="206" key="GridCell.Tab.1.bottom" timestamp="1604726031941">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1212" height="206" key="GridCell.Tab.1.bottom/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726031941" />
-    <state width="1212" height="206" key="GridCell.Tab.1.center" timestamp="1604726031941">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1212" height="206" key="GridCell.Tab.1.center/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726031941" />
-    <state width="1212" height="206" key="GridCell.Tab.1.left" timestamp="1604726031941">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1212" height="206" key="GridCell.Tab.1.left/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726031941" />
-    <state width="1212" height="206" key="GridCell.Tab.1.right" timestamp="1604726031941">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1212" height="206" key="GridCell.Tab.1.right/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604726031941" />
-    <state x="1052" y="307" key="SettingsEditor" timestamp="1604724391340">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1052" y="307" key="SettingsEditor/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604724391340" />
-    <state x="1582" y="398" width="540" height="524" key="StructurePopup" timestamp="1604724532907">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1582" y="398" width="540" height="524" key="StructurePopup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604724532907" />
-    <state x="1217" y="539" key="cloudConfig.SelfSettingsDialog" timestamp="1604722737769">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1217" y="539" key="cloudConfig.SelfSettingsDialog/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604722737769" />
-    <state x="1151" y="608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604722740895">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1151" y="608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604722740895" />
-    <state x="1183" y="416" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604725957933">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1183" y="416" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1604725957933" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/bin/file.rs</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
         <breakpoint type="python-exception">
